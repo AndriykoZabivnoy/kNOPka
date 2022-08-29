@@ -1,8 +1,10 @@
-
+#menu{
+    padding: 40px 0 0 40px;
+}
 #menu a {
     display: flex;
     flex-direction: column;
-    margin-right:1550px;/*тут я по інакшому не міг, без цього елемента блоки розтягувались на весь рядок*/
+    width: 250px;
     margin-top: 15px;
     padding: 15px 10px 15px 45px;
     font-size:20px; 
@@ -11,7 +13,7 @@
 	border: 3px solid #6d6d71;
 	background-color: #6d6d71;
 }
-#menu a:hover, #menu a.this{
+#menu a:hover, #menu .this{
 	color: #6d6d71;
 	border: 3px solid #6d6d71;
 	background-color: #F5F6FA;
