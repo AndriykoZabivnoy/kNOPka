@@ -1,0 +1,20 @@
+#menu {
+	display: flex;
+}
+#menu a {
+    margin-right: 20px;
+	padding: 10px;
+    padding: 10px 45px 10px 45px;
+	text-decoration: none;
+	color:white;
+	border: 3px solid #6d6d71;
+	background-color: #6d6d71;
+}
+#menu a:hover, #menu a.this{
+	color: #6d6d71;
+	border: 3px solid #6d6d71;
+	background-color: #F5F6FA;
+}
+body{
+    font-family: 'Roboto Mono', monospace;  
+}
